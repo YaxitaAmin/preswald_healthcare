@@ -1,0 +1,17 @@
+[project]
+title = "NYC EMS Analytics Dashboard"
+version = "1.0.0"
+port = 8501
+slug = "nyc-ems-analytics"
+entrypoint = "ems_analytics.py"
+
+[branding]
+name = "NYC EMS Analytics"
+logo = "images/ems_logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#FF6B6B"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
